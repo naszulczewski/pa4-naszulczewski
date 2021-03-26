@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/pa4-naszulczewski/api/api.csproj": {}
+    "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/pa4-natashaszulczewski/pa4-naszulczewski/api/api.csproj": {}
   },
   "projects": {
-    "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/pa4-naszulczewski/api/api.csproj": {
+    "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/pa4-natashaszulczewski/pa4-naszulczewski/api/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/pa4-naszulczewski/api/api.csproj",
+        "projectUniqueName": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/pa4-natashaszulczewski/pa4-naszulczewski/api/api.csproj",
         "projectName": "api",
-        "projectPath": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/pa4-naszulczewski/api/api.csproj",
+        "projectPath": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/pa4-natashaszulczewski/pa4-naszulczewski/api/api.csproj",
         "packagesPath": "/Users/natashaszulczewski/.nuget/packages/",
-        "outputPath": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/pa4-naszulczewski/api/obj/",
+        "outputPath": "/Users/natashaszulczewski/Desktop/UA/MIS321/repos/pa4-natashaszulczewski/pa4-naszulczewski/api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/natashaszulczewski/.nuget/NuGet/NuGet.Config"

@@ -8,7 +8,7 @@ namespace api.Models
     {
         public List<Post> GetAllPosts()
         {
-            string cs = @"URI=file:C:\Users\natashaszulczewski\Desktop\UA\MIS321\repos\pa4-naszulczewski\api\posts.db";
+            string cs = @"URI=file:C:\Users\natashaszulczewski\Desktop\UA\MIS321\repos\pa4-naszulczewski\pa4-natashaszulczewski\api\posts.db";
             using var con = new SQLiteConnection(cs);
             con.Open();
 
@@ -29,7 +29,7 @@ namespace api.Models
 
         public Post GetPost(int id)
         {
-            string cs = @"URI=file:C:\Users\natashaszulczewski\Desktop\UA\MIS321\repos\pa4-naszulczewski\api\posts.db";
+            string cs = @"URI=file:C:\Users\natashaszulczewski\Desktop\UA\MIS321\repos\pa4-naszulczewski\pa4-natashaszulczewski\api\posts.db";
             using var con = new SQLiteConnection(cs);
             con.Open();
 
