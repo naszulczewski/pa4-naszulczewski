@@ -1,0 +1,50 @@
+a.red
+{
+    color: red; /* the anchors with the class red will have color set as red */
+}
+
+.banner
+{
+    background-color: #660000; /* customer color with number, can look them up or choose */
+    color: white; /* text is white */
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#small-bigal /* use hastag cause it is an id name beig referenced not a class */
+{
+    height: 150px; /* adjustign the size of the image */
+}
+
+#social 
+{
+    color: #660000;
+    font-size: 100px;
+}
+
+.social-section
+{
+    pad: 20px 50 px;
+}
+
+.bold
+{
+    font-weight: 900;
+}
+
+.greets
+{
+    list-style-type: none;
+}
+
+.avatar
+{
+    background-image: url('../images/bigalcartoon.png'); /* two dots take us up a directory */
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block; /* in line with the text */
+    vertical-align: middle;
+}

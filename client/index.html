@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Al's Social Media</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+</head>
+<body  onload="getPosts()">
+    <script type="text/Javascript" src="resources/scripts/index.js"></script>
+
+    <!--Banner Section-->
+    <div class="banner">
+        <h1>Big Al's Page</h1>
+        <img id = "small-bigal" src="./resources/images/bigalbds.jpg" alt=""> <!-- made class an id cause eonly want to use it for this part of the banner (making image smaller)-->
+        <p>Because everything is better with Big Al</p>
+    </div>
+
+    <!--Social Media Section-->
+    <div class="social-section">
+        <span id="social" class="bold">BigAl Goes Social</span> <!--span is an inline while div is a block level element, if you want less styling so you can do more yourself then use this, the h1 etc already has a lot of styling so we want to be more customized-->
+        <p class="bold">Big Al's 321 Social Media</p>
+    </div>
+
+
+
+    <!--Submit Form-->
+    <form onsubmit="return false"; method="post"> 
+        <label for="title">Write Post</label>
+        <input type="text" name="post" id="post"/> <!-- want to target the text they enter -->
+        <input type="submit" value="Submit" onclick="addPost()"/> <!--submit button, when soemone clicks the buttom we want them t add a post and call this methid in the javascript -->
+    </form>
+
+    <div id="posts">
+
+    </div>
+    
+</body>
+</html>
