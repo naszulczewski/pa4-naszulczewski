@@ -29,7 +29,14 @@
     <form onsubmit="return false"; method="post"> 
         <label for="title">Write Post</label>
         <input type="text" name="post" id="post"/> <!-- want to target the text they enter -->
-        <input type="submit" value="Submit" onclick="addPost()"/> <!--submit button, when soemone clicks the buttom we want them t add a post and call this methid in the javascript -->
+        <input type="submit" value="Submit" onclick="addPost()"/> <!--submit button, when soemone clicks the buttom we want them to add a post and call this methid in the javascript -->
+    </form>
+
+    <!--Delete Form-->
+    <form onsubmit="return false"; method="post"> 
+        <label for="title">Delete Post</label>
+        <input type="text" name="post" id="post"/> 
+        <input type="submit" value="Delete" onclick="deletePost()"/> 
     </form>
 
     <div id="posts">
